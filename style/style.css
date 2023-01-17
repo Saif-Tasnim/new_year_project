@@ -1,0 +1,57 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0 ;
+    
+}
+
+/* Header part design With banner */
+
+.banner{
+    padding: 30px;
+    background-image: url('../images/banner/banner2.png');
+    height: 809px;
+    background-size: cover;
+    margin-bottom: 130px;
+   
+}
+
+.banner h1{
+    color: #151414;
+    padding-top: 216px;
+    padding-left: 980px;
+    padding-right: 290px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+
+}
+
+.banner .desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+    color: #444343;
+    margin-top: 24px;
+    padding-left: 1070px;
+    padding-right: 290px;
+    
+}
+
+.banner .first-btn{
+    margin-top: 24px;
+    margin-left: 1400px;
+    margin-right: 290px;
+    text-align: right;
+    color: #FFFFFF;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    background: #F15B22;
+    border-radius: 5px;
+    border: none;
+
+}
+
