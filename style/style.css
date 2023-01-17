@@ -122,6 +122,7 @@ main {
 .section2-container {
     padding-top: 10px;
     margin-bottom: 131px;
+    margin-right: -50px;
 }
 
 .section2-container h1 {
@@ -129,7 +130,7 @@ main {
     font-weight: 700;
     font-size: 48px;
     line-height: 47px;
-    padding-left: 100px;
+    padding-left: 30px;
     padding-bottom: 30px;
     color: #151414;
 
@@ -137,10 +138,10 @@ main {
 
 .section2-container .icon-containers {
     display: flex;
-    gap: 20px;
+    gap: 30px;
     margin-top: 20px;
     text-align: center;
-    width: 1280px;
+    /* width: 1280px; */
 }
 
 .section2-container .icon-containers .web {
@@ -168,4 +169,46 @@ main {
     text-align: center;
     color: #737272;
 
+}
+
+/* Section -3 design */
+
+.section3-container {
+    /* background-image: url(../images/watch.png); */
+    background-image: linear-gradient(to right, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 1210px;
+    margin-bottom: 131px;
+    border-radius: 5px;
+    /*  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('images/background.jpg'); */
+}
+
+.section3-container h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding-top: 59px;
+    padding-left: 64px;
+    text-align: left;
+    width: 459px;
+    margin-bottom: 24px;
+
+}
+
+.section3-container button {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    color: #F15B22;
+    height: 64px;
+    margin-left: 64px;
+    padding: 20px 36px;
+    border-radius: 5px;
+    border: none;
 }
